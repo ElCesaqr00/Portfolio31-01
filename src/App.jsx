@@ -1,17 +1,18 @@
 import "./App.css";
+import CardProject from "./components/CardProject";
 
 function App() {
   return (
     <>
-      <main className="mainPage">
-        <header>
+      <main >
+        <header className="mainPage">
           <nav className="nav_header">
             <ul className="nav_container">
               <li>
                 <a href="">Home</a>
               </li>
               <li>
-                <a href="">Projects</a>
+                <a href="projects">Projects</a>
               </li>
               <li>
                 <a href="">About me</a>
@@ -29,10 +30,16 @@ function App() {
               </p>
             </div>
             <div className="HomePage_Social">
-            <a  className="social_section"><img className="social_icon" src="../public/images/linkedin.png" alt=""/><p>Linkedin</p></a>
-            <div className="social_section"><img className="social_icon" src="../public/images/github.png" alt=""/><p>Github</p>  </div>
-            <div className="social_section"><img className="social_icon" src="../public/images/gmail.png" alt=""/><p>Email</p> </div>
+            <div className="social_section"><img className="social_icon" src="../public/images/linkedin.png" alt=""/><a href="https://www.linkedin.com/in/cesar-david-montes-serna-b62724262/" target="_blank" >Linkedin</a></div>
+            <div className="social_section"><img className="social_icon" src="../public/images/github.png" alt=""/><a href="https://github.com/ElCesaqr00" target="_blank">Github</a>  </div>
+            <div className="social_section"><img className="social_icon" src="../public/images/gmail.png" alt=""/><a href="www.google.com" target="_blank">Email</a> </div>
             </div>
+          </article>
+          <article className="projects_container">
+            <h1 className="project_title">My porjects</h1>
+          <div className="Projects">
+            <CardProject />
+          </div>
           </article>
         </section>
       </main>

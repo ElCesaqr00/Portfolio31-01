@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;600;700;800&display=swap');
-
+html{
+  background-color: rebeccapurple;
+}
 *{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .nav_header{
   display: flex;
@@ -25,15 +27,19 @@ flex-direction: column;
 margin-top: 5%;
 gap: 50px;
 justify-content: center;
+background-color: rebeccapurple;
 }
 
 .mainPage{
+  padding: 20px;
   background-color: rebeccapurple;
 }
+
 .social_icon{
   align-items: center;
   width: auto;
 }
+
 .social_section{
   display: flex;
   gap: 5px;
@@ -41,23 +47,30 @@ justify-content: center;
   width: 140px;
   height: 40px;
 }
-.social_section>p{
+
+.social_section>a{
   margin-top: 10px;
   color: white;
 }
+
 .HomePage_Text{
 text-align: center;
 }
+
 .text_roll{
   color: rgb(243, 72, 72)
 }
+
 .text_roll2{
-  color:blueviolet;
+  color:rgb(238, 151, 21);
 }
+
 .HomePage_Text_Name{
   font-size: 4rem;
+  font-weight: 800;
   margin-bottom: 40px;
 }
+
 .HomePage_Social{
   display: flex;
   gap: 25px;
@@ -75,4 +88,15 @@ text-align: center;
 
 a{
   text-decoration: none;
+}
+
+.projects_container{
+ margin-top: 6em;
+ background-color: #fff;
+ text-align: center;
+}
+.project_title{
+font-size: 2rem;
+color: rebeccapurple;
+padding: 30px;
 }
