@@ -12,7 +12,7 @@ function App() {
                 <a href="">Home</a>
               </li>
               <li>
-                <a href="projects">Projects</a>
+                <a href="projectCards">Projects</a>
               </li>
               <li>
                 <a href="">About me</a>
@@ -35,8 +35,8 @@ function App() {
             <div className="social_section"><img className="social_icon" src="../public/images/gmail.png" alt=""/><a href="www.google.com" target="_blank">Email</a> </div>
             </div>
           </article>
-          <article className="projects_container">
-            <h1 className="project_title">My porjects</h1>
+          <article className="projects_container" id="projectCards">
+            <h1 className="project_title">My projects</h1>
           <div className="Projects">
             <CardProject />
           </div>

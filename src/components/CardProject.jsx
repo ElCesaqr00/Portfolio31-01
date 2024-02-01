@@ -3,7 +3,7 @@ import "./Styles/CardProject.css"
 
 const CardProject = () => {
   return (
-    <h1>CardProject</h1>
+    <div >CardProject</div>
   )
 }
 
