@@ -93,7 +93,6 @@ a{
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
-background-color: red;
 
 }
 .projects_container{
@@ -105,4 +104,15 @@ background-color: red;
 font-size: 2rem;
 color: rebeccapurple;
 padding: 30px;
+}
+.info_aboutMe{
+  display: flex;
+  justify-content: center;
+}
+.info_aboutMe_text{
+  margin: 50px;
+  width: 300px;
+}
+.info_aboutMe_text>h2{
+  margin-bottom: 20px;
 }

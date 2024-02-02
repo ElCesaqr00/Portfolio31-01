@@ -40,7 +40,18 @@ function App() {
           <div className="Projects">
             <CardProject />
             <CardProject />
+            <CardProject />
+            <CardProject />
           </div>
+          </article>
+          <article className="info_aboutMe">
+            <div className="info_aboutMe_text">
+            <h2>Cesar David Montes Serna</h2>
+            <p>Hola de nuevo, me considero una persona dinamica, pro-activa y muy responsable en las responsabilidades en comendadas a mi.
+               me gusta investigar informacion que respecte a tecnologia
+              e emprendido esta travesia como desarrollador permitiendome cumplir este deseo de pertenecer a esta industria, espero ser de su agrado
+               </p>
+            </div>
           </article>
         </section>
       </main>
