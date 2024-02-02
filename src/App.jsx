@@ -2,6 +2,10 @@ import "./App.css";
 import CardProject from "./components/CardProject";
 
 function App() {
+
+  const data = "./data/projects.json"
+  console.log(data)
+
   return (
     <>
       <main >

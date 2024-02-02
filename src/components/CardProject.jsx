@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 
-const CardProject = () => {
+const CardProject = ({ data }) => {
+
   return (
     <div className='card_container'>
 
