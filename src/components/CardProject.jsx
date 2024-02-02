@@ -3,7 +3,13 @@ import "./Styles/CardProject.css"
 
 const CardProject = () => {
   return (
-    <div >CardProject</div>
+    <div className='card_container'>
+
+    <div className='card' >
+
+    </div>
+    
+    </div>
   )
 }
 

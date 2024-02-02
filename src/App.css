@@ -89,7 +89,13 @@ text-align: center;
 a{
   text-decoration: none;
 }
+.Projects{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background-color: red;
 
+}
 .projects_container{
  margin-top: 6em;
  background-color: #fff;

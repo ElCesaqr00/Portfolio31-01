@@ -39,6 +39,7 @@ function App() {
             <h1 className="project_title">My projects</h1>
           <div className="Projects">
             <CardProject />
+            <CardProject />
           </div>
           </article>
         </section>
