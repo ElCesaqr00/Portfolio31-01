@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
+import data from "../data/projects.json"
+import axios from 'axios'
 
-const CardProject = ({ data }) => {
+const CardProject = ({jsonData}) => {
+
+  const cardList = data.map(dataList =>
+    <li key={dataList.id}>
+         <header className='card' >
+      <img src={dataList.image} alt="" />
+    </header> 
+    </li>)
 
   return (
-    <div className='card_container'>
-
-    <div className='card' >
-
-    </div>
-    
-    </div>
+    <ul className='card_container'>
+    { cardList }
+    </ul>
   )
 }
 
