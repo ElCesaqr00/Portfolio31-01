@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name": "Crud",
+        "difficulty": "3",
+        "image": "../images/IconProject/crud-project.png",
+        "tegnology": "",
+        "description": "",
+        "year":  2023
+    },
+    {
+        "id" : 2,
+        "name": "Fortune cookie",
+        "difficulty": "3",
+        "image": "../images/IconProject/galleta-de-la-fortuna.png",
+        "tegnology": "",
+        "description": "",
+        "year":  2023
+    },
+    {
+        "id" : 3,
+        "name": "Rick and Morty",
+        "difficulty": "3",
+        "image": "../images/IconProject/rick-and-morty.png",
+        "tegnology": "",
+        "description": "",
+        "year":  2023
+    },
+    {
+        "id" : 4,
+        "name": "Weather App",
+        "difficulty": "3",
+        "image": "../images/IconProject/weather-app.png",
+        "tegnology": "",
+        "description": "",
+        "year":  2023
+    }
+]

@@ -1,7 +1,18 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import CardProject from "./components/CardProject";
+import data from "./data/projects.json"
 
 function App() {
+  
+const [jsonData, setjsonData] = useState(null);
+
+  useEffect(() => {
+  const jsonFiles = data;
+  setjsonData(jsonFiles) 
+  }, [jsonData])
+
+  console.log(jsonData)
   return (
     <>
       <main >
@@ -38,10 +49,7 @@ function App() {
           <article className="projects_container" id="projectCards">
             <h1 className="project_title">My projects</h1>
           <div className="Projects">
-            <CardProject />
-            <CardProject />
-            <CardProject />
-            <CardProject />
+            <CardProject  jsonData={jsonData} />
           </div>
           </article>
           <article className="info_aboutMe">
