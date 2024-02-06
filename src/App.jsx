@@ -41,9 +41,9 @@ const [jsonData, setjsonData] = useState(null);
               </p>
             </div>
             <div className="HomePage_Social">
-            <div className="social_section"><img className="social_icon" src="../public/images/linkedin.png" alt=""/><a href="https://www.linkedin.com/in/cesar-david-montes-serna-b62724262/" target="_blank" >Linkedin</a></div>
-            <div className="social_section"><img className="social_icon" src="../public/images/github.png" alt=""/><a href="https://github.com/ElCesaqr00" target="_blank">Github</a>  </div>
-            <div className="social_section"><img className="social_icon" src="../public/images/gmail.png" alt=""/><a href="www.google.com" target="_blank">Email</a> </div>
+            <div className="social_section"><img className="social_icon" src="/images/linkedin.png" alt=""/><a href="https://www.linkedin.com/in/cesar-david-montes-serna-b62724262/" target="_blank" >Linkedin</a></div>
+            <div className="social_section"><img className="social_icon" src="/images/github.png" alt=""/><a href="https://github.com/ElCesaqr00" target="_blank">Github</a>  </div>
+            <div className="social_section"><img className="social_icon" src="/images/gmail.png" alt=""/><a href="www.google.com" target="_blank">Email</a> </div>
             </div>
           </article>
           <article className="projects_container" id="projectCards">

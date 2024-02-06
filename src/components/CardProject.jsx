@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
-import axios from 'axios'
 
 const CardProject = ({jsonData}) => {
 
@@ -10,6 +8,10 @@ const CardProject = ({jsonData}) => {
          <header className='card' >
       <img src={dataList.image} alt="" />
     </header> 
+    <div>
+      <h2> {dataList.name} </h2>
+      <p> {dataList.description} </p>
+    </div>
     </li>)
 
   return (
