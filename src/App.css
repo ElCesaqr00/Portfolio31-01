@@ -57,11 +57,13 @@ background-color: rebeccapurple;
 text-align: center;
 }
 
-.text_roll{
-  color:rgb(238, 151, 21);
+.text_container{
+  width: 21em;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.text_roll2{
+.text_roll{
   color:rgb(238, 151, 21);
 }
 
