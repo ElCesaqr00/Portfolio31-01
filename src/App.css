@@ -75,6 +75,7 @@ text-align: center;
   display: flex;
   gap: 25px;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   height: 50px;
 }
@@ -89,12 +90,7 @@ text-align: center;
 a{
   text-decoration: none;
 }
-.Projects{
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
 
-}
 .projects_container{
  margin-top: 6em;
  background-color: #fff;
