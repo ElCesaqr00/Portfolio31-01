@@ -5,8 +5,9 @@
         "difficulty": "3",
         "image": "../images/IconProject/crud-project.png",
         "tegnology": "",
-        "description": "",
-        "year":  2023
+        "description": "Proyecto en la cual se implemento princ",
+        "GitHub" : "https://github.com/ElCesaqr00/ent4-Gen31",
+        "Render": "https://crud-1jar.onrender.com"
     },
     {
         "id" : 2,
@@ -15,7 +16,9 @@
         "image": "../images/IconProject/galleta-de-la-fortuna.png",
         "tegnology": "",
         "description": "",
-        "year":  2023
+        "GitHub" : "https://github.com/ElCesaqr00/Ent1-Gen31",
+        "Render": "https://galleta-de-la-fortuna.onrender.com"
+
     },
     {
         "id" : 3,
@@ -24,7 +27,9 @@
         "image": "../images/IconProject/rick-and-morty.png",
         "tegnology": "",
         "description": "",
-        "year":  2023
+        "GitHub" : "https://github.com/ElCesaqr00/ent3-Gen31",
+        "Render": "https://rick-and-morty-project.onrender.com"
+
     },
     {
         "id" : 4,
@@ -33,6 +38,7 @@
         "image": "../images/IconProject/weather-app.png",
         "tegnology": "",
         "description": "",
-        "year":  2023
+        "GitHub" : "https://github.com/ElCesaqr00/Ent2Gen31",
+        "Render": "https://weather-page-bpf9.onrender.com" 
     }
 ]

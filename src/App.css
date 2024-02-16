@@ -36,9 +36,19 @@ background-color: rebeccapurple;
 }
 
 .social_icon{
-  align-items: center;
   width: auto;
 }
+.Social_Links1{
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+}
+.Social_Links1:hover{
+  background: #faf8f870;
+}
+
 
 .social_section{
   display: flex;
@@ -48,10 +58,15 @@ background-color: rebeccapurple;
   height: 40px;
 }
 
+.social_section p{
+  margin-top: 0.6rem;
+}
+
 .social_section>a{
   margin-top: 10px;
   color: white;
 }
+
 
 .HomePage_Text{
 text-align: center;
