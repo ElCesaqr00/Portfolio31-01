@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
+import { motion } from "framer-motion"
 
 const CardProject = () => {
 

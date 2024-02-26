@@ -5,7 +5,7 @@
         "difficulty": "3",
         "image": "../images/IconProject/crud-project.png",
         "tegnology": "",
-        "description": "Proyecto en la cual se implemento princ",
+        "description": "Proyecto en la cual se implemento las principales funciones CRUD.",
         "GitHub" : "https://github.com/ElCesaqr00/ent4-Gen31",
         "Render": "https://crud-1jar.onrender.com"
     },
@@ -15,7 +15,7 @@
         "difficulty": "3",
         "image": "../images/IconProject/galleta-de-la-fortuna.png",
         "tegnology": "",
-        "description": "",
+        "description": "Proyecto donde se usaron funciones para generar resultados aleatorios.",
         "GitHub" : "https://github.com/ElCesaqr00/Ent1-Gen31",
         "Render": "https://galleta-de-la-fortuna.onrender.com"
 
@@ -26,7 +26,7 @@
         "difficulty": "3",
         "image": "../images/IconProject/rick-and-morty.png",
         "tegnology": "",
-        "description": "",
+        "description": "Proyecto en el cual de hizo uso de una API para traer datos y generarlos dependiendo region y categoria.",
         "GitHub" : "https://github.com/ElCesaqr00/ent3-Gen31",
         "Render": "https://rick-and-morty-project.onrender.com"
 
@@ -37,7 +37,7 @@
         "difficulty": "3",
         "image": "../images/IconProject/weather-app.png",
         "tegnology": "",
-        "description": "",
+        "description": "En este proyecto usamos los datos de ubicacion del usuario para que dinamicamente muestre el clima.",
         "GitHub" : "https://github.com/ElCesaqr00/Ent2Gen31",
         "Render": "https://weather-page-bpf9.onrender.com" 
     }

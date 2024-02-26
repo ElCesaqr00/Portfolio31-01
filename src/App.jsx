@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import CardProject from "./components/CardProject";
-
+import { motion } from "framer-motion"
 
 function App() {
 
