@@ -45,10 +45,6 @@ background-color: rebeccapurple;
   width: 150px;
   height: 50px;
 }
-.Social_Links1:hover{
-  background: #faf8f870;
-}
-
 
 .social_section{
   display: flex;
@@ -104,8 +100,17 @@ text-align: center;
   justify-content: center;
 }
 
+.nav_container:hover{
+  background-color: #fff;
+}
+
 a{
   text-decoration: none;
+}
+
+.card_info:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 .projects_container{

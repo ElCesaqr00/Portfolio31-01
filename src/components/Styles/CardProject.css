@@ -13,9 +13,6 @@
     margin: 30px;
     position: relative;
 }
-.card_info:hover{
-    transform: scale(1.1);
-}
 .card_body{
     margin-top: 10px;
 }

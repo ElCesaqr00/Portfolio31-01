@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
-import { motion } from "framer-motion"
+import { motion, transform } from "framer-motion"
 
 const CardProject = () => {
 
 const dataInfo = data;
 
   const cardList = dataInfo.map(dataList =>
-    <li className='card_info' key={dataList.id}>
+    <li className='card_info' key={dataList.id} itemID={dataList.name}>
       <div>
         <header className='card' >
           <img src={dataList.image} className='card_img' alt="" />
@@ -37,7 +37,8 @@ const dataInfo = data;
     
 
   return (
-    <ul className='card_container'>
+    <ul
+    className='card_container'>
       {cardList}
     </ul>
   )
