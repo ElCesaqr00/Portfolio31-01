@@ -20,12 +20,12 @@ const dataInfo = data;
           <div className='card_Links' >
             <div>
               <a href={dataList.Render}  target='_blank'  className='icon-links' >
-            
+              <i class="fa-solid fa-link"></i>
               </a>
             </div>
             <div>
               <a href={dataList.GitHub} target='_blank'  className='icon-links' >
-              
+              <i class="fa-brands fa-github"></i>
               </a>
             </div>
           </div>
