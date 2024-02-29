@@ -19,14 +19,14 @@ const dataInfo = data;
           </ul>
           <div className='card_Links' >
             <div>
-              {/* <a href={dataList.Render}  target='_blank' className='icon-links'>
-              <FaExternalLinkAlt  />
-              </a> */}
+              <a href={dataList.Render}  target='_blank'  className='icon-links' >
+            
+              </a>
             </div>
             <div>
-              {/* <a href={dataList.GitHub} target='_blank' className='icon-links'>
-              <FaGithub />
-              </a> */}
+              <a href={dataList.GitHub} target='_blank'  className='icon-links' >
+              
+              </a>
             </div>
           </div>
         </div>
