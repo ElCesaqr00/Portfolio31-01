@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import { motion, transform } from "framer-motion"
 
 const CardProject = () => {
@@ -20,13 +21,13 @@ const dataInfo = data;
           </ul>
           <div className='card_Links' >
             <div>
-              <a href={dataList.Render} target='_blank'>
-                <img src="images/IconProject/IconsCard/enlace.png" alt="" />
+              <a href={dataList.Render}  target='_blank' className='icon-links'>
+              <FaExternalLinkAlt  />
               </a>
             </div>
             <div>
-              <a href={dataList.GitHub} target='_blank'>
-                <img src="images/IconProject/IconsCard/github.png" alt="" />
+              <a href={dataList.GitHub} target='_blank' className='icon-links'>
+              <FaGithub />
               </a>
             </div>
           </div>
