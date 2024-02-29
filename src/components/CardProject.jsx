@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react'
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import { motion, transform } from "framer-motion"
 
 const CardProject = () => {
 

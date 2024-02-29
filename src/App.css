@@ -109,8 +109,8 @@ a{
 }
 
 .card_info:hover{
-  transform: scale(1.1);
-  transition: 0.2s;
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
 }
 
 .projects_container{
