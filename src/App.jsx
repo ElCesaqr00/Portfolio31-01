@@ -1,4 +1,5 @@
 import "./App.css";
+import CardCertificate from "./components/CardCertificate";
 import CardProject from "./components/CardProject";
 
 function App() {
@@ -11,19 +12,22 @@ function App() {
           <nav className="nav_header">
             <ul className="nav_container">
               <li className="test11">
-                <a href="">Home</a>
+                <a href="#homepageId">Home</a>
               </li>
               <li>
-                <a href="projectCards">Projects</a>
+                <a href="#projectCards">Projects</a>
               </li>
               <li>
-                <a href="">About me</a>
+                <a href="#certificateCards">Certificates</a>
+              </li>
+              <li>
+                <a href="#info_aboutMe">About me</a>
               </li>
             </ul>
           </nav>
         </header>
         <section >
-          <article className="HomePage">
+          <article className="HomePage" id="homepageId">
             <div className="HomePage_Text">
               <h1 className="HomePage_Text_Name">Hola, soy Cesar</h1>
               <div className="text_container">
@@ -44,8 +48,14 @@ function App() {
               <CardProject />
             </div>
           </article>
+          <article className="certificate_container" id="certificateCards">
+            <h1 className="certificate_title">Certificates</h1>
+            <div className="certificate_info">
+            <CardCertificate />
+            </div>
+          </article>
           <article className="info_aboutMe">
-            <div className="info_aboutMe_text">
+            <div className="info_aboutMe_text" id="info_aboutMe">
               <h2>Cesar David Montes Serna</h2>
               <p>¡Hola de nuevo! Me considero una persona dinámica, proactiva y muy responsable en las responsabilidades encomendadas a mí. Me gusta investigar información que tenga que ver con tecnología. He emprendido esta travesía como desarrollador, permitiéndome cumplir este deseo de pertenecer a esta industria. Espero ser de su agrado. </p>
             </div>

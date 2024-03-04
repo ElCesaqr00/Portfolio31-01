@@ -2,6 +2,7 @@
 
 html{
   background-color: rebeccapurple;
+  scroll-behavior: smooth;
 }
 *{
   margin: 0%;
@@ -34,6 +35,10 @@ background-color: rebeccapurple;
 .mainPage{
   padding: 20px;
   background-color: rebeccapurple;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
 }
 
 .social_icon{
@@ -101,10 +106,6 @@ text-align: center;
   justify-content: center;
 }
 
-.nav_container:hover{
-  background-color: #fff;
-}
-
 a{
   text-decoration: none;
 }
@@ -134,4 +135,13 @@ padding: 30px;
 }
 .info_aboutMe_text>h2{
   margin-bottom: 20px;
+}
+.certificate_title{
+  font-size: 2rem;
+  padding: 30px;
+  text-align: center;
+}
+.certificate_info{
+  display: flex;
+  justify-content: center;
 }

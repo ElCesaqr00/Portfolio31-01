@@ -1,6 +1,5 @@
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const CardProject = () => {
 
@@ -34,7 +33,6 @@ const dataInfo = data;
       
     </li>)
     
-
   return (
     <ul
     className='card_container'>
