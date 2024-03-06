@@ -69,7 +69,6 @@ background-color: rebeccapurple;
   color: white;
 }
 
-
 .HomePage_Text{
 text-align: center;
 }
@@ -80,6 +79,7 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .text_roll{
   color:rgb(238, 151, 21);
 }
@@ -120,19 +120,23 @@ a{
  background-color: #fff;
  text-align: center;
 }
+
 .project_title{
 font-size: 2rem;
 color: rebeccapurple;
 padding: 30px;
 }
+
 .info_aboutMe{
   display: flex;
   justify-content: center;
 }
+
 .info_aboutMe_text{
   margin: 50px;
   width: 300px;
 }
+
 .info_aboutMe_text>h2{
   margin-bottom: 20px;
 }
@@ -140,8 +144,4 @@ padding: 30px;
   font-size: 2rem;
   padding: 30px;
   text-align: center;
-}
-.certificate_info{
-  display: flex;
-  justify-content: center;
 }
