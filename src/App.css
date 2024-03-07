@@ -129,6 +129,8 @@ padding: 30px;
 }
 
 .info_aboutMe{
+  display: flex;
+  justify-content: center;
   text-align: center;
 
 }

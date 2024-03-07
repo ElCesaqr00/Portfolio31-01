@@ -6,9 +6,9 @@ const CardCertificate = () => {
    const data = dataCertf;
 
     const dataList = data.map( dataInfo => (
-        <li className='Card_Certificate'>
+        <li key={dataInfo.id} className='Card_Certificate'>
             <header className='header_img'>
-                <img className='Card_img' src={dataInfo.url} alt="" />
+                <img className='Card_img'src={dataInfo.url} alt="" />
             </header>
             <h1>{dataInfo.name}</h1>
         </li>
@@ -16,7 +16,7 @@ const CardCertificate = () => {
     
    
   return (
-    <ul className='card_certificate'>
+    <ul loading="lazy"  className='card_certificate'>
       {dataList}
     </ul>
   )

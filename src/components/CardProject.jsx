@@ -35,7 +35,7 @@ const dataInfo = data;
     
   return (
     <ul
-    className='card_container'>
+    className='card_container'  loading="lazy" >
       {cardList}
     </ul>
   )
