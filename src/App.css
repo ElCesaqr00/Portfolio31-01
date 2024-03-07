@@ -71,6 +71,7 @@ background-color: rebeccapurple;
 
 .HomePage_Text{
 text-align: center;
+margin-top: 7em;
 }
 
 .text_container{
@@ -128,8 +129,8 @@ padding: 30px;
 }
 
 .info_aboutMe{
-  display: flex;
-  justify-content: center;
+  text-align: justify;
+
 }
 
 .info_aboutMe_text{
