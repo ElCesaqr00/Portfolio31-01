@@ -1,11 +1,27 @@
 import "./Styles/CardProject.css"
 import data from "../data/projects.json"
+import { useEffect, useState } from "react";
 
 const CardProject = () => {
+  const [dataInfo, setDataInfo] = useState([]);
 
-const dataInfo = data;
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('../data/projects.json'); // Suponiendo que projects.json está en la misma carpeta que este componente
+        const data = await response.json();
+        setDataInfo(data);
+      } catch (error) {
+        console.error('Error al cargar los datos:', error);
+      }
+    };
 
-  const cardList = dataInfo.map(dataList =>
+    fetchData();
+  }, []);
+
+const dataInfoJson = data;
+
+  const cardList = dataInfoJson.map(dataList =>
     <li className='card_info' key={dataList.id} itemID={dataList.name}>
       <div>
         <header className='card' >
