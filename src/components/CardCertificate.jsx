@@ -1,11 +1,24 @@
-import React from 'react'
-import dataCertf from "../data/certificates.json"
+import React, { useEffect, useState } from 'react'
 import "./Styles/CardCertificate.css"
 
 const CardCertificate = () => {
-   const data = dataCertf;
+  const [dataJson, setDataJson] = useState([]);
 
-    const dataList = data.map( dataInfo => (
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('../certificates.json');
+        const data = await response.json();
+        setDataJson(data);
+      } catch (error) {
+        console.error('Error al cargar los datos:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+    const dataList = dataJson.map( dataInfo => (
         <li key={dataInfo.id} className='Card_Certificate'>
             <header className='header_img'>
                 <img className='Card_img'src={dataInfo.url} alt="" />

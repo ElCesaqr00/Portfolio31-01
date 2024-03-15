@@ -1,0 +1,16 @@
+[
+    {
+        "id" : "1",
+        "name" : "Foundation",
+        "year" : "2023",
+        "url" : "../images/certificateUrl/Foundation.jpg"
+
+    },
+    {
+        "id" : "2",
+        "name" : "Front-End with React",
+        "year" : "2023",
+        "url" : "../images/certificateUrl/Front-End.jpg"
+
+    }
+]
