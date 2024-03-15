@@ -26,9 +26,9 @@ function App() {
         </header>
         <section>
           <article className="HomePage" id="homepageId">
-            <div className="HomePage_Text">
+            <article className="HomePage_Text">
               <h1 className="HomePage_Text_Name">Hola, soy Cesar</h1>
-              <div className="text_container">
+              <article className="text_container">
                 <p>
                   ¡Hola! Soy un apasionado{" "}
                   <span className="text_roll">Desarrollador Web FullStack</span>{" "}
@@ -39,67 +39,67 @@ function App() {
                   ser ejemplar en mi trabajo, creando soluciones innovadoras y
                   eficientes.
                 </p>
-              </div>
-            </div>
-            <div className="HomePage_Social">
+              </article>
+            </article>
+            <section className="HomePage_Social">
               <a
                 className="Social_Links1"
                 href="https://www.linkedin.com/in/cesar-david-montes-serna-b62724262/"
                 target="_blank"
               >
-                <div className="social_section">
+                <article className="social_section">
                   <img
                     className="social_icon"
                     src="../images/linkedin.avif"
                     alt=""
                   />
                   <p>Linkedin</p>
-                </div>
+                </article>
               </a>
               <a
                 className="Social_Links1"
                 href="https://github.com/ElCesaqr00"
                 target="_blank"
               >
-                <div className="social_section">
+                <article className="social_section">
                   <img
                     className="social_icon"
                     src="../images/github.avif"
                     alt=""
                   />
                   <p>Github</p>
-                </div>
+                </article>
               </a>
               <a
                 className="Social_Links1"
                 href="www.google.com"
                 target="_blank"
               >
-                <div className="social_section">
+                <article className="social_section">
                   <img
                     className="social_icon"
                     src="../images/gmail.avif"
                     alt=""
                   />
                   <p>Email</p>
-                </div>
+                </article>
               </a>
-            </div>
+            </section>
           </article>
           <article className="projects_container" id="projectCards">
             <h1 className="project_title">My projects</h1>
-            <div className="Projects">
+            <section className="Projects">
               <CardProject />
-            </div>
+            </section>
           </article>
           <article className="certificate_container" id="certificateCards">
             <h1 className="certificate_title">Certificates</h1>
-            <div className="certificate_info">
+            <section className="certificate_info">
               <CardCertificate />
-            </div>
+            </section>
           </article>
           <article className="info_aboutMe">
-            <div className="info_aboutMe_text" id="info_aboutMe">
+            <article className="info_aboutMe_text" id="info_aboutMe">
               <h2>Cesar David Montes Serna</h2>
               <p>
                 ¡Hola de nuevo! Me considero una persona dinámica, proactiva y
@@ -110,7 +110,7 @@ function App() {
                 su agrado y estoy emocionado por seguir creciendo en esta
                 apasionante área. ¡Gracias por visitar mi portafolio!
               </p>
-            </div>
+            </article>
           </article>
         </section>
       </main>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;600;700;800&display=swap');
 
 html{
-  background-color: rebeccapurple;
+  background-color: #5E15A3;
   scroll-behavior: smooth;
 }
 *{
@@ -30,12 +30,12 @@ flex-direction: column;
 margin-top: 5%;
 gap: 50px;
 justify-content: center;
-background-color: rebeccapurple;
+background-color:  #5E15A3;
 }
 
 .mainPage{
   padding: 20px;
-  background-color: rebeccapurple;
+  background-color: #5E15A3;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -136,6 +136,9 @@ padding: 30px;
   justify-content: center;
   text-align: center;
 
+}
+.text_container{
+  font-weight: 600;
 }
 
 .info_aboutMe_text{
