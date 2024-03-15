@@ -10,6 +10,7 @@ html{
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
   color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
 }
 
 .nav_header{
@@ -79,10 +80,10 @@ margin-top: 7em;
 
 .text_container{
   width: 21em;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: auto;
 }
+
 
 .text_roll{
   color:#FAD399;
@@ -115,7 +116,7 @@ a{
 }
 
 .card_info:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
   transition: 0.1s ease-in-out;
 }
 
@@ -149,6 +150,7 @@ padding: 30px;
 .info_aboutMe_text>h2{
   margin-bottom: 20px;
 }
+
 .certificate_title{
   font-size: 2rem;
   padding: 30px;
