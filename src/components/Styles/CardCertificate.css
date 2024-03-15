@@ -9,6 +9,7 @@
     display: flex;
     width: 16rem;
 }
+
 .card_certificate{
     display: flex;
     flex-wrap: wrap;

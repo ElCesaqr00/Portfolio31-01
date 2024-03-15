@@ -19,7 +19,7 @@ const CardProject = () => {
   }, []);
 
   const cardList = dataInfo.map(dataList =>
-    <li className='card_info' key={dataList.id} itemID={dataList.name}>
+    <li className='card_info' loading="lazy" key={dataList.id} itemID={dataList.name}>
       <section>
         <header className='card' >
           <img src={dataList.image} className='card_img' alt="" />
