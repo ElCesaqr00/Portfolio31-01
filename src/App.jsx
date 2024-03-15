@@ -50,7 +50,7 @@ function App() {
                 <div className="social_section">
                   <img
                     className="social_icon"
-                    src="../images/linkedin.png"
+                    src="../images/linkedin.avif"
                     alt=""
                   />
                   <p>Linkedin</p>
@@ -64,7 +64,7 @@ function App() {
                 <div className="social_section">
                   <img
                     className="social_icon"
-                    src="../images/github.png"
+                    src="../images/github.avif"
                     alt=""
                   />
                   <p>Github</p>
@@ -78,7 +78,7 @@ function App() {
                 <div className="social_section">
                   <img
                     className="social_icon"
-                    src="../images/gmail.png"
+                    src="../images/gmail.avif"
                     alt=""
                   />
                   <p>Email</p>
