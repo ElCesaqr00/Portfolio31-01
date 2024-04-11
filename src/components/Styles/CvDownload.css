@@ -1,0 +1,67 @@
+.Btn_Cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.365);
+    width: 7rem;
+    height: 2rem;
+    background: rebeccapurple;
+    position: inherit;
+}
+#linkDwnId::before{
+    content: "Descargar Cv";
+}
+.Btn_Cv:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid rgb(162, 96, 228);
+    width: 7rem;
+    height: 2rem;
+    background: rgb(255, 255, 255);
+}
+.linkDwn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    width: 7rem;
+    height: 2rem;
+}
+.linkDwn:hover{
+    color: rebeccapurple;
+
+}
+
+@media screen and (max-width: 600px){
+    #linkDwnId::before{
+        content: "";
+    }
+    #linkDwnId::after{
+        content: "Cv";
+    }
+
+    .Btn_Cv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.365);
+        width: 3rem;
+        height: 2rem;
+        background: rebeccapurple;
+        position: inherit;
+    }
+    .linkDwn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        color: rgb(255, 255, 255);
+        width: 3rem;
+        height: 2rem;
+    }
+   }

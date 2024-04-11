@@ -1,6 +1,7 @@
 import "./App.css";
 import CardCertificate from "./components/CardCertificate";
 import CardProject from "./components/CardProject";
+import CvDownload from "./components/CvDownload";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </a>
 
         <header className="mainPage">
+          <CvDownload />
           <nav className="nav_header">
             <ul className="nav_container">
               <li className="listText">
