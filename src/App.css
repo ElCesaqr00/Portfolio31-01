@@ -29,6 +29,7 @@ main{
 display: flex;
 flex-direction: column;
 margin-top: 5%;
+height: 70vh;
 gap: 50px;
 justify-content: center;
 background-color:  #5E15A3;
@@ -74,6 +75,7 @@ background-color:  #5E15A3;
 }
 
 .HomePage_Text{
+display: block;
 text-align: center;
 margin-top: 7em;
 }
@@ -121,9 +123,17 @@ a{
 }
 
 .projects_container{
- margin-top: 6em;
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: 8em;
  background-color: #fff;
  text-align: center;
+}
+.container_prj{
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+
 }
 
 .project_title{
@@ -156,3 +166,38 @@ padding: 30px;
   padding: 30px;
   text-align: center;
 }
+
+.icon_chat{
+  content: "";
+  position:fixed;
+  display: flex;
+  margin-top: 45rem;
+  width: 3rem;
+}
+
+.icon_email{
+  content: "";
+  position:fixed;
+  display: flex;
+  margin-top: 41.5rem;
+  width: 3rem;
+  border-radius: 10px;
+}
+.text-color-link{
+color: black;
+}
+
+@media screen and (min-width: 600px){
+ .listText{
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 0px 10px 10px 10px;
+} 
+.text_container{
+  width: 25em;
+  font-size: 1.4rem;
+  text-align: center;
+  margin: auto;
+}
+}
+

@@ -6,20 +6,27 @@ function App() {
   return (
     <>
       <main>
+      <a href="https://wa.me/573235289093?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
+        <img className="icon_chat" src="../public/images/whatsapp.png" alt="" />
+      </a>
+      <a href="mailto:cesarmontes0842@gmail.com">
+        <img className="icon_email" src="../public/images/gmail.avif" alt="" />
+      </a>
+
         <header className="mainPage">
           <nav className="nav_header">
             <ul className="nav_container">
-              <li className="test11">
-                <a href="#homepageId">Home</a>
+              <li className="listText">
+                <a href="#homepageId">Inicio</a>
               </li>
-              <li>
-                <a href="#projectCards">Projects</a>
+              <li className="listText">
+                <a href="#projectCards">Proyectos</a>
               </li>
-              <li>
-                <a href="#certificateCards">Certificates</a>
+              <li className="listText">
+                <a href="#certificateCards">certificados</a>
               </li>
-              <li>
-                <a href="#info_aboutMe">About me</a>
+              <li className="listText">
+                <a href="#info_aboutMe">Contacto</a>
               </li>
             </ul>
           </nav>
@@ -31,13 +38,14 @@ function App() {
               <article className="text_container">
                 <p>
                   ¡Hola! Soy un apasionado{" "}
-                  <span className="text_roll">Desarrollador Web FullStack</span>{" "}
-                  que utiliza tecnologías como{" "}
-                  <span className="text_roll">ReactJs, NodeJs, Express,</span> y
-                  manejo de datos con{" "}
-                  <span className="text_roll">Postgres</span>. Me esfuerzo por
-                  ser ejemplar en mi trabajo, creando soluciones innovadoras y
-                  eficientes.
+                  <span className="text_roll">Desarrollador Web FullStack,</span>{" "}
+                  Me considero una persona dinámica, proactiva y muy responsable
+                  en las tareas encomendadas a mí. Me gusta investigar
+                  información que tenga que ver con tecnología. He emprendido
+                  esta travesía como desarrollador, permitiéndome cumplir este
+                  deseo de pertenecer a esta industria. Espero ser de su agrado
+                  y estoy emocionado por seguir creciendo en esta apasionante
+                  área. ¡Gracias por visitar mi portafolio!
                 </p>
               </article>
             </article>
@@ -72,7 +80,7 @@ function App() {
               </a>
               <a
                 className="Social_Links1"
-                href="www.google.com"
+                href="mailto:cesarmontes0842@gmail.com"
                 target="_blank"
               >
                 <article className="social_section">
@@ -87,29 +95,22 @@ function App() {
             </section>
           </article>
           <article className="projects_container" id="projectCards">
-            <h1 className="project_title">My projects</h1>
+            <article className="container_prj">
+            <h1 className="project_title">Proyectos</h1>
             <section className="Projects">
               <CardProject />
             </section>
+            </article>
           </article>
           <article className="certificate_container" id="certificateCards">
-            <h1 className="certificate_title">Certificates</h1>
+            <h1 className="certificate_title">Certificados</h1>
             <section className="certificate_info">
               <CardCertificate />
             </section>
           </article>
           <article className="info_aboutMe">
             <article className="info_aboutMe_text" id="info_aboutMe">
-              <h2>Cesar David Montes Serna</h2>
-              <p>
-                ¡Hola de nuevo! Me considero una persona dinámica, proactiva y
-                muy responsable en las tareas encomendadas a mí. Me gusta
-                investigar información que tenga que ver con tecnología. He
-                emprendido esta travesía como desarrollador, permitiéndome
-                cumplir este deseo de pertenecer a esta industria. Espero ser de
-                su agrado y estoy emocionado por seguir creciendo en esta
-                apasionante área. ¡Gracias por visitar mi portafolio!
-              </p>
+  
             </article>
           </article>
         </section>
