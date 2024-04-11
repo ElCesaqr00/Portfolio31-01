@@ -7,10 +7,10 @@ function App() {
     <>
       <main>
       <a href="https://wa.me/573235289093?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
-        <img className="icon_chat" src="../public/images/whatsapp.avif" alt="" />
+        <img className="icon_chat" src="../images/whatsapp.avif" alt="" />
       </a>
       <a href="mailto:cesarmontes0842@gmail.com">
-        <img className="icon_email" src="../public/images/gmail.avif" alt="" />
+        <img className="icon_email" src="../images/gmail.avif" alt="" />
       </a>
 
         <header className="mainPage">
