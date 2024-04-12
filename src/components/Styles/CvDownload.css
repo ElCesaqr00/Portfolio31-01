@@ -51,8 +51,8 @@
         align-items: center;
         border-radius: 30px;
         border: 1px solid rgba(255, 255, 255, 0.365);
-        width: 3rem;
-        height: 2rem;
+        width: 5rem;
+        height: 2.5rem;
         background: rebeccapurple;
         position: inherit;
     }
@@ -62,8 +62,8 @@
         align-items: center;
         border-radius: 30px;
         border: 1px solid rgb(162, 96, 228);
-        width: 3rem;
-        height: 2rem;
+        width: 5rem;
+        height: 2.5rem;
         background: rgb(255, 255, 255);
     }
     .linkDwn{
@@ -72,7 +72,7 @@
         align-items: center;
         border-radius: 30px;
         color: rgb(255, 255, 255);
-        width: 3rem;
-        height: 2rem;
+        width: 5rem;
+        height: 2.5rem;
     }
    }
