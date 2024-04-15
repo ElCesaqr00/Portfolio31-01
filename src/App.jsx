@@ -111,8 +111,9 @@ function App() {
             </section>
           </article>
           <article className="info_aboutMe">
+            <h1>Tecnologias</h1>
             <article className="info_aboutMe_text" id="info_aboutMe">
-  
+            
             </article>
           </article>
         </section>
