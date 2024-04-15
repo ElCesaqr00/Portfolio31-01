@@ -23,7 +23,7 @@ const CardCertificate = () => {
             <header className='header_img'>
                 <img className='Card_img'src={dataInfo.url} alt="" />
             </header>
-            <h1>{dataInfo.name}</h1>
+            <h1 className='title_info'>{dataInfo.name}</h1>
         </li>
     ));
     

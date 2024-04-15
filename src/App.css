@@ -29,7 +29,7 @@ main{
 display: flex;
 flex-direction: column;
 margin-top: 5%;
-height: 70vh;
+height: 40rem;
 gap: 50px;
 justify-content: center;
 background-color:  #5E15A3;
@@ -127,6 +127,7 @@ display: flex;
 justify-content: center;
 align-items: center;
  margin-top: 8em;
+ height: 55rem;
  background-color: #fff;
  text-align: center;
 }
@@ -160,7 +161,15 @@ padding: 30px;
 .info_aboutMe_text>h2{
   margin-bottom: 20px;
 }
-
+.certificate_container{
+  min-height: 65rem;
+}
+.certificate_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 35rem;
+}
 .certificate_title{
   font-size: 2rem;
   padding: 30px;
