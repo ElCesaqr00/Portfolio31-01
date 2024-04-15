@@ -23,14 +23,16 @@ const CardCertificate = () => {
             <header className='header_img'>
                 <img className='Card_img'src={dataInfo.url} alt="" />
             </header>
-            <h1 className='title_info'>{dataInfo.name}</h1>
+            <a href={dataInfo.link}  className='title_info'>{dataInfo.name}</a>
+            
         </li>
     ));
-    
+    console.log(dataJson)
    
   return (
     <ul loading="lazy"  className='card_certificate'>
       {dataList}
+      
     </ul>
   )
 }

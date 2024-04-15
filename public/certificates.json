@@ -3,14 +3,15 @@
         "id" : "1",
         "name" : "Foundation",
         "year" : "2023",
-        "url" : "../images/certificateUrl/Foundation.avif"
+        "url" : "../images/certificateUrl/Foundation.jpg",
+        "link": "https://certiwise.co/verify/104"
 
     },
     {
         "id" : "2",
         "name" : "Front-End with React",
         "year" : "2023",
-        "url" : "../images/certificateUrl/Front-End.avif"
-
+        "url" : "../images/certificateUrl/Front-End.jpg",
+        "link": "https://certiwise.co/verify/354"
     }
 ]

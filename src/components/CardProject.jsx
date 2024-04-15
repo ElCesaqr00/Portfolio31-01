@@ -32,12 +32,12 @@ const CardProject = () => {
           <article className='card_Links' >
             <article>
               <a href={dataList.Render}  target='_blank'  className='icon-links' >
-              <i class="fa-solid fa-link"></i>
+              <i className="fa-solid fa-link"></i>
               </a>
             </article>
             <article>
               <a href={dataList.GitHub} target='_blank'  className='icon-links' >
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
               </a>
             </article>
           </article>
