@@ -127,7 +127,7 @@ display: flex;
 justify-content: center;
 align-items: center;
  margin-top: 8em;
- height: 55rem;
+ min-height: 55rem;
  background-color: #fff;
  text-align: center;
 }
@@ -180,7 +180,7 @@ padding: 30px;
   content: "";
   position:fixed;
   display: flex;
-  margin-top: 45rem;
+  margin-top: 40rem;
   border-radius: 12px;
   width: 3rem;
 }
@@ -189,7 +189,7 @@ padding: 30px;
   content: "";
   position:fixed;
   display: flex;
-  margin-top: 41.5rem;
+  margin-top: 36.5rem;
   width: 3rem;
   border-radius: 12px;
 }
