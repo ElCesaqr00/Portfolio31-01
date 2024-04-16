@@ -2,6 +2,7 @@ import "./App.css";
 import CardCertificate from "./components/CardCertificate";
 import CardProject from "./components/CardProject";
 import CvDownload from "./components/CvDownload";
+import TecnoCard from "./components/TecnoCard";
 
 function App() {
   return (
@@ -96,6 +97,12 @@ function App() {
               </a>
             </section>
           </article>
+          <article className="info_aboutMe">
+            <h1>Tecnologias</h1>
+            <TecnoCard />
+          
+          </article>
+
           <article className="projects_container" id="projectCards">
             <article className="container_prj">
             <h1 className="project_title">Proyectos</h1>
@@ -110,12 +117,7 @@ function App() {
               <CardCertificate />
             </section>
           </article>
-          <article className="info_aboutMe">
-            <h1>Tecnologias</h1>
-            <article className="info_aboutMe_text" id="info_aboutMe">
-            
-            </article>
-          </article>
+
         </section>
       </main>
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Styles/CvDownload.css"
-import cesarCv from  "/public/images/CesarCv.pdf"
+import cesarCv from  "/images/CesarCv.pdf"
 
 const CvDownload = () => {
 

@@ -49,6 +49,7 @@ background-color:  #5E15A3;
   border-radius: 50%;
 }
 
+
 .Social_Links1{
   display: flex;
   align-items: center;
@@ -144,10 +145,13 @@ padding: 30px;
 }
 
 .info_aboutMe{
-  display: flex;
-  justify-content: center;
+  font-size: 2rem;
   text-align: center;
+  margin-top: 15rem;
+}
 
+.info_Tecnology{
+  background: #000;
 }
 .text_container{
   font-weight: 600;
