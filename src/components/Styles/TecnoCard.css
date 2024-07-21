@@ -1,8 +1,7 @@
 .containerTec {
-  display: flex;
   justify-content: center;
   margin-top: 6rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .tec-container {
@@ -10,6 +9,7 @@
   justify-content: center;
   flex-direction: column;
   max-width: 13em;
+  max-height: fit-content;
 }
 
 .img_Tecno {
