@@ -146,9 +146,9 @@ padding: 30px;
 
 .info_aboutMe{
   display: flex;
+  flex-direction: column;
   font-size: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   margin-top: 15rem;
 }
 
