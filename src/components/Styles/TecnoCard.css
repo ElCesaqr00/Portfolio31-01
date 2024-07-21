@@ -1,6 +1,6 @@
 .containerTec {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 6rem;
   gap: 1.5rem;
 }
