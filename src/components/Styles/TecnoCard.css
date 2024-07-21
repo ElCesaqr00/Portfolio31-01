@@ -1,23 +1,26 @@
-.containerTec{
-    display: flex;
-    justify-content: center;
-    margin-top: 6rem;
-    gap: 2rem;
-}
-.tec-container{
-    max-width: 13em;
-    max-height: 13em;
-}
-.img_Tecno{
-    width: 5rem;
-    margin: 1rem
+.containerTec {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  gap: 2rem;
 }
 
-.img_container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-    background-color: #fff;
-    border: 0.5rem solid rgb(58, 30, 86);
-    border-radius: 1.6em;
+.tec-container {
+  display: flex;
+  max-width: 13em;
+  max-height: 13em;
+}
+
+.img_Tecno {
+  width: 5rem;
+  margin: 1rem
+}
+
+.img_container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  background-color: #fff;
+  border: 0.5rem solid rgb(58, 30, 86);
+  border-radius: 1.6em;
 }
