@@ -9,11 +9,10 @@
   display: flex;
   justify-content: center;
   max-width: 13em;
-  max-height: 13em;
 }
 
 .img_Tecno {
-  max-width: 5rem;
+  max-width: 6rem;
   margin: 1rem
 }
 
