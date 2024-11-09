@@ -203,6 +203,87 @@ padding: 30px;
 .text-color-link{
 color: black;
 }
+input{
+  color: rgba(0, 0, 0, 0.589);
+}
+
+footer{
+  background-color: #fff;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 0 5rem;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer > div {
+  width: 47.5%;
+}
+
+.inputList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactSection > form{
+margin-left: 11rem;
+margin-right: auto;
+}
+
+.contactSection > h3{
+  margin-left: 11rem;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  }
+
+footer input[name="nombre"]{
+  min-width: 12em;
+  min-height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+footer textarea {
+  min-width: 15rem;
+  padding: 3px;
+  color: rgba(68, 65, 65, 0.5);
+  border: 1px solid rebeccapurple;
+  border-radius: 4px;
+  font-size: 1.125em;
+}
+footer textarea {
+ width: 100%;
+ height: 100px;
+}
+.send-buttom{
+  margin-top: 0.5rem;
+}
+div > input[name="send"]{
+  width: 10em;
+  height: 2em;
+  cursor: pointer;
+}
+div > input[name="send"]:hover{
+background-color: rgba(102, 51, 153, 0.603);
+color: white;
+border: none;
+border-radius: 5px;
+}
+.titleContact{
+  color: rgb(132, 0, 255);
+  font-size: 2em;
+}
+.inputList{
+  margin-top: 0.3rem;
+}
+#opinion{
+  margin-top: 0.3rem;
+  width: 10rem;
+}
 
 @media screen and (min-width: 600px){
  .listText{

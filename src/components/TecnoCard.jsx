@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Styles/TecnoCard.css"
 
 const TecnoCard = () => {

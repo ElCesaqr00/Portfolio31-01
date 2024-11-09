@@ -11,7 +11,7 @@
     position: inherit;
 }
 #linkDwnId::before{
-    content: "Descargar Cv";
+    content: "Descargar CV";
 }
 .Btn_Cv:hover{
     display: flex;

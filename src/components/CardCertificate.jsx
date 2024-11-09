@@ -20,7 +20,7 @@ const CardCertificate = () => {
 
     const dataList = dataJson.map( dataInfo => (
         <li key={dataInfo.id} loading="lazy" className='Card_Certificate'>
-            <header className='header_img'>
+            <header id='headerImg'>
                 <img loading='lazy' className='Card_img'src={dataInfo.url} alt="" />
             </header>
             <a href={dataInfo.link}  className='title_info'>{dataInfo.name}</a>

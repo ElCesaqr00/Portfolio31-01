@@ -8,10 +8,18 @@
     width: 24rem;
 }
 
-.Card_img:hover{
-width: 50rem;
-transition: width 0.6s ease-in-out;
+/* .Card_img:hover{
+width: 35rem;
+transition: 1s ease ;
 position: sticky;
+}
+*/
+
+#headerImg{
+    background-color: red;
+    height: max-content;
+    width: max-content;
+    transition: box-shadow .1s transform;
 }
 
 .title_info{
