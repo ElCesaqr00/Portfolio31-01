@@ -118,9 +118,12 @@ a{
   text-decoration: none;
 }
 
+.card_info{
+  transition: transform 0.1s ease;
+}
+
 .card_info:hover{
-  transform: scale(1.02);
-  transition: 0.1s ease-in-out;
+  transform: scale(1.1);
 }
 
 .projects_container{
