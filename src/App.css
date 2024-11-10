@@ -169,13 +169,15 @@ padding: 30px;
   margin-bottom: 20px;
 }
 .certificate_container{
-  min-height: 65rem;
+  min-height: 35rem;
 }
 .certificate_info{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 35rem;
+  min-height: max-content;
+
 }
 .certificate_title{
   font-size: 2rem;
@@ -221,8 +223,25 @@ footer{
 }
 
 footer > div {
-  width: 47.5%;
+  width: 20rem;
 }
+
+.footerInfo {
+  h3, h4, p, a{
+    color: rebeccapurple;
+    margin-bottom: 0.2rem;
+  }
+}
+
+.footerInfo > ul{
+  margin-top: 1.7rem;
+}
+
+.footerInfo > h3{
+font-size: 1.5rem;
+margin: 5px;
+}
+
 
 .inputList {
   display: flex;

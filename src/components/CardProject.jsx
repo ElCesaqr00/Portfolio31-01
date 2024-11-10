@@ -31,12 +31,12 @@ const CardProject = () => {
           </ul>
           <article className='card_Links' >
             <article>
-              <a href={dataList.Render}  target='_blank'  className='icon-links' >
+              <a href={dataList.Render}  target='_blank'  className='icon-links' rel="noreferrer">
               <i className="fa-solid fa-link"></i>
               </a>
             </article>
             <article>
-              <a href={dataList.GitHub} target='_blank'  className='icon-links' >
+              <a href={dataList.GitHub} target='_blank'  className='icon-links' rel="noreferrer" >
               <i className="fa-brands fa-github"></i>
               </a>
             </article>

@@ -1,22 +1,24 @@
 .Card_Certificate{
     background-color: #5E15A3;
-    margin: 30px;
+    margin: 4em;
+    display: inline-block;
 }
+
 
 .Card_img{
     display: flex;
-    width: 24rem;
+    width: 18rem;
+    transition: transform 0.4s ease;
 }
 
-/* .Card_img:hover{
-width: 35rem;
-transition: 1s ease ;
-position: sticky;
+.Card_img:hover{
+transform: scale(1.7);
+position: static;
+cursor: pointer;
 }
-*/
+
 
 #headerImg{
-    background-color: red;
     height: max-content;
     width: max-content;
     transition: box-shadow .1s transform;
