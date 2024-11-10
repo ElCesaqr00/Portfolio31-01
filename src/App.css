@@ -211,7 +211,6 @@ input{
 
 footer{
   background-color: #fff;
-  max-width: 1440px;
   width: 100%;
   margin: auto;
   padding: 0 5rem;
@@ -219,18 +218,18 @@ footer{
   padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-footer > div {
-  width: 20rem;
-}
+
 
 .footerInfo {
   h3, h4, p, a{
     color: rebeccapurple;
     margin-bottom: 0.2rem;
   }
+  margin-left: 11rem;
+  margin-right: auto;
 }
 
 .footerInfo > ul{
@@ -252,6 +251,7 @@ margin: 5px;
 margin-left: 11rem;
 margin-right: auto;
 }
+
 
 .contactSection > h3{
   margin-left: 11rem;
