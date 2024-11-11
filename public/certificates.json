@@ -3,7 +3,7 @@
         "id" : "1",
         "name" : "Foundation",
         "year" : "2023",
-        "url" : "../images/certificateUrl/Foundation.jpg",
+        "url" : "../images/certificateUrl/Foundation.webp",
         "link": "https://certiwise.co/verify/104"
 
     },
@@ -11,21 +11,21 @@
         "id" : "2",
         "name" : "Front-End with React",
         "year" : "2023",
-        "url" : "../images/certificateUrl/Front-End.jpg",
+        "url" : "../images/certificateUrl/Front-End.webp",
         "link": "https://certiwise.co/verify/354"
     },  
     {
         "id" : "3",
         "name" : "Back-End Development with Node.Js",
         "year" : "2023",
-        "url" : "../images/certificateUrl/BackEnd.png",
+        "url" : "../images/certificateUrl/BackEnd.webp",
         "link": "https://certiwise.co/verify/5237"
     },
     {
         "id" : "4",
         "name" : "Full Stack Web",
         "year" : "2023",
-        "url" : "../images/certificateUrl/FullStack.png",
+        "url" : "../images/certificateUrl/FullStack.webp",
         "link": "https://certiwise.co/verify/5233"
     }
 ]
