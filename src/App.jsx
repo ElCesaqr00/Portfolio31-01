@@ -165,7 +165,7 @@ function App() {
           <h3>Información personal</h3>
           <ul>
             <li>
-              <h4 className="sub-title">Nombre: </h4> <p>Cesar D. Montes</p>
+              <h4 className="sub-title">Nombre: </h4> <p>Cesar David Montes Serna</p>
             </li>
             <li>
               <h4 className="sub-title">Email: </h4>{" "}
