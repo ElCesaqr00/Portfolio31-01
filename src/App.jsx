@@ -125,7 +125,7 @@ function App() {
       </main>
       <footer>
         <div className="contactSection" id="contactSection">
-          <h3 className="titleContact">Contactame</h3>
+          <h3 className="titleContact">Contáctame</h3>
           <form
             action="https://formsubmit.co/cesarmontes0842@gmail.com"
             method="post"
@@ -174,7 +174,7 @@ function App() {
             <li>
               <h4 className="sub-title">Ubicación: </h4>{" "}
               <a href="https://www.google.com.ar/maps/place/Santiago,+Regi%C3%B3n+Metropolitana">
-                Santiago, Region Metropolitana, Chile.
+                Santiago, Región Metropolitana, Chile.
               </a>
             </li>
           </ul>
