@@ -1,4 +1,5 @@
 import "./App.css";
+import { Suspense } from "react";
 import CardCertificate from "./components/CardCertificate";
 import CardProject from "./components/CardProject";
 import CvDownload from "./components/CvDownload";
@@ -6,7 +7,8 @@ import TecnoCard from "./components/TecnoCard";
 
 function App() {
   return (
-    <>
+    
+    <Suspense fallback={<div>Loading...</div>}>
       <main>
         <a href="https://wa.me/573235289093?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
           <img className="icon_chat" src="../images/whatsapp.avif" alt="" />
@@ -180,7 +182,7 @@ function App() {
           </ul>
         </div>
       </footer>
-    </>
+      </Suspense>
   );
 }
 
