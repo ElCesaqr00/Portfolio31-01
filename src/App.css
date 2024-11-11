@@ -249,6 +249,9 @@ margin: 5px;
   display: flex;
   flex-wrap: wrap;
 }
+.contactSection{
+  margin-bottom: 5rem;
+}
 
 .contactSection > form{
 margin-left: 11rem;
@@ -260,8 +263,7 @@ margin-right: auto;
   margin-left: 11rem;
   margin-right: auto;
   margin-bottom: 1rem;
-  }
-
+}
 footer input[name="nombre"]{
   min-width: 12em;
   min-height: 2rem;
@@ -318,6 +320,29 @@ border-radius: 5px;
   font-size: 1.4rem;
   text-align: center;
   margin: auto;
+}
+}
+
+@media screen and (max-width: 620px){
+  footer{
+    background-color: #fff;
+    width: 100%;
+    padding: 0 5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .footerInfo {
+    margin-left: 11rem;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.contactSection{
+  margin-bottom: 2rem;
+  margin-top: 3rem;
 }
 }
 
