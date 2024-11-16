@@ -27,5 +27,12 @@
         "year" : "2023",
         "url" : "../images/certificateUrl/FullStack.webp",
         "link": "https://certiwise.co/verify/5233"
+    },
+    {
+        "id" : "5",
+        "name" : "JavaScript: Manipulacion del DOM",
+        "year" : "2024",
+        "url" : "../images/certificateUrl/Platzy-Js.webp",
+        "link": ""
     }
 ]
