@@ -8,8 +8,8 @@
 }
 .card_info{
     border: 3px solid rebeccapurple;
+    width: min-content;
     border-radius: 10px 10px 10px 10px ;
-    width: 247px;
     margin: 30px;
     position: relative;
 }
