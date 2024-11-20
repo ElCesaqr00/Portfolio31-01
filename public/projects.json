@@ -40,5 +40,15 @@
         "description": "En este proyecto usamos los datos de ubicacion del usuario para que dinamicamente muestre el clima.",
         "GitHub" : "https://github.com/ElCesaqr00/Ent2Gen31",
         "Render": "https://weather-page-bpf9.onrender.com" 
+    },
+    {
+        "id" : 5,
+        "name": "Pokedex Page",
+        "difficulty": "3",
+        "image": "../images/IconProject/Pokedex.webp",
+        "tegnology": "",
+        "description": "En este proyecto consuminos un Api para complementar y diseñar pagina con tematica a Pokemón",
+        "GitHub" : "https://github.com/ElCesaqr00/Ent2Gen31",
+        "Render": "https://weather-page-bpf9.onrender.com" 
     }
 ]
