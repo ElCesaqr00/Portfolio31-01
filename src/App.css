@@ -194,7 +194,7 @@ padding: 30px;
   content: "";
   position:fixed;
   display: flex;
-  margin-top: 40rem;
+  margin-top: 3rem;
   border-radius: 12px;
   width: 3rem;
 }
@@ -203,7 +203,7 @@ padding: 30px;
   content: "";
   position:fixed;
   display: flex;
-  margin-top: 36.5rem;
+  margin-top: 1rem;
   width: 3rem;
   border-radius: 12px;
 }

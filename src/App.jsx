@@ -7,10 +7,10 @@ import TecnoCard from "./components/TecnoCard";
 
 function App() {
   return (
-    
-    <Suspense fallback={<div>Loading...</div>}>
+    <>
+   
       <main>
-        <a href="https://wa.me/573235289093?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
+        <a href="https://wa.me/56967285526?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
           <img className="icon_chat" src="../images/whatsapp.avif" alt="" />
         </a>
         <a href="mailto:cesarmontes0842@gmail.com">
@@ -37,6 +37,7 @@ function App() {
           </nav>
         </header>
         <section>
+        <Suspense fallback={<div>Loading...</div>}>
           <article className="HomePage" id="homepageId">
             <article className="HomePage_Text">
               <h1 className="HomePage_Text_Name">Hola, soy Cesar</h1>
@@ -104,6 +105,7 @@ function App() {
               </a>
             </section>
           </article>
+          
           <article className="info_aboutMe">
             <h1>Tecnologías</h1>
             <TecnoCard />
@@ -123,6 +125,7 @@ function App() {
               <CardCertificate />
             </section>
           </article>
+          </Suspense>
         </section>
       </main>
       <footer>
@@ -182,7 +185,8 @@ function App() {
           </ul>
         </div>
       </footer>
-      </Suspense>
+      
+</>
   );
 }
 
