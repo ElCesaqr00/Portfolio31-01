@@ -121,11 +121,11 @@ a{
 }
 
 .card_info{
-  transition: transform 0.1s ease;
+  transition: all 300ms ease;
 }
 
 .card_info:hover{
-  transform: scale(1.1);
+  transform: translateY(-3%);
 }
 
 .projects_container{
