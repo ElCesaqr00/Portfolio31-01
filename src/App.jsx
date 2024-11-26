@@ -10,12 +10,6 @@ function App() {
     <>
    
       <main>
-        <a href="https://wa.me/56967285526?text=Hola%20amigo,%20Me%20gustaria%20contactarte">
-          <img className="icon_chat" src="../images/whatsapp.avif" alt="" />
-        </a>
-        <a href="mailto:cesarmontes0842@gmail.com">
-          <img className="icon_email" src="../images/gmail.avif" alt="" />
-        </a>
 
         <header className="mainPage">
           <CvDownload />
@@ -37,7 +31,6 @@ function App() {
           </nav>
         </header>
         <section>
-        <Suspense fallback={<div>Loading...</div>}>
           <article className="HomePage" id="homepageId">
             <article className="HomePage_Text">
               <h1 className="HomePage_Text_Name">Hola, soy Cesar</h1>
@@ -125,7 +118,7 @@ function App() {
               <CardCertificate />
             </section>
           </article>
-          </Suspense>
+          
         </section>
       </main>
       <footer>

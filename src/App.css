@@ -93,11 +93,17 @@ margin-top: 7em;
 .text_roll{
   color:#FAD399;
 }
+@keyframes fadeIn {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+  
+}
 
 .HomePage_Text_Name{
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 40px;
+  animation: fadeIn 700ms ease;
 }
 
 .HomePage_Social{
@@ -190,23 +196,6 @@ padding: 30px;
   text-align: center;
 }
 
-.icon_chat{
-  content: "";
-  position:fixed;
-  display: flex;
-  margin-top: 3rem;
-  border-radius: 12px;
-  width: 3rem;
-}
-
-.icon_email{
-  content: "";
-  position:fixed;
-  display: flex;
-  margin-top: 1rem;
-  width: 3rem;
-  border-radius: 12px;
-}
 .text-color-link{
 color: black;
 }
