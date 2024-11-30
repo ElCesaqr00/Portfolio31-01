@@ -16,6 +16,7 @@ const CardCertificate = () => {
     };
 
     fetchData();
+    
   }, []);
 
     const dataList = dataJson.map( dataInfo => (
