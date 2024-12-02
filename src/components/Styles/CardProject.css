@@ -85,9 +85,10 @@
   
   .modal_close {
     position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 1.5rem;
+    top: 2px;
+    right: 10px;
+    font-size: 1.8rem;
+    color: black;
     background: none;
     border: none;
     cursor: pointer;

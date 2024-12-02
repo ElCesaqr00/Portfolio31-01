@@ -61,7 +61,7 @@ function App() {
                   <img
                     className="social_icon"
                     src="../images/linkedin.webp"
-                    alt=""
+                    alt="" loading="lazy"
                   />
                   <p>Linkedin</p>
                 </article>
@@ -76,7 +76,7 @@ function App() {
                   <img
                     className="social_icon"
                     src="../images/github.webp"
-                    alt=""
+                    alt="" loading="lazy"
                   />
                   <p>Github</p>
                 </article>
@@ -91,7 +91,7 @@ function App() {
                   <img
                     className="social_icon"
                     src="../images/gmail.webp"
-                    alt=""
+                    alt="" loading="lazy"
                   />
                   <p>Email</p>
                 </article>
