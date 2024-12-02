@@ -45,6 +45,7 @@ background-color:  #5E15A3;
 }
 
 .social_icon{
+  display: none;
   width: 3rem;
   height: auto;
   aspect-ratio: 1;
